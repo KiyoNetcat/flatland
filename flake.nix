@@ -22,7 +22,10 @@
           name = "resources";
           src = ./.;
 
-          buildPhase = "cp -r $src/data/org.stardustxr.Flatland $out";
+          installPhase = ''
+            mkdir -p $out/org.stardustxr.Flatland
+            install -Dm0644 $src/data/org.stardustxr.Flatland/* $out/org.stardustxr.Flatland
+          '';
         };
       };
     });
