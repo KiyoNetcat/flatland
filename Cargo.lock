@@ -3093,7 +3093,7 @@ dependencies = [
 [[package]]
 name = "zbus"
 version = "5.13.0"
-source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#9bb6a958fdbfcc6c46f2766cae8e60ee20ec81ee"
+source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#c83f3d251b3418ae7cec0df165dc36bf7ac8090e"
 dependencies = [
  "async-broadcast",
  "async-executor",
@@ -3128,7 +3128,7 @@ dependencies = [
 [[package]]
 name = "zbus_macros"
 version = "5.13.0"
-source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#9bb6a958fdbfcc6c46f2766cae8e60ee20ec81ee"
+source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#c83f3d251b3418ae7cec0df165dc36bf7ac8090e"
 dependencies = [
  "proc-macro-crate 3.4.0",
  "proc-macro2",
@@ -3142,7 +3142,7 @@ dependencies = [
 [[package]]
 name = "zbus_names"
 version = "4.2.0"
-source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#9bb6a958fdbfcc6c46f2766cae8e60ee20ec81ee"
+source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#c83f3d251b3418ae7cec0df165dc36bf7ac8090e"
 dependencies = [
  "serde",
  "winnow 0.7.13",
@@ -3226,7 +3226,7 @@ dependencies = [
 [[package]]
 name = "zvariant"
 version = "5.8.0"
-source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#9bb6a958fdbfcc6c46f2766cae8e60ee20ec81ee"
+source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#c83f3d251b3418ae7cec0df165dc36bf7ac8090e"
 dependencies = [
  "endi",
  "enumflags2",
@@ -3240,7 +3240,7 @@ dependencies = [
 [[package]]
 name = "zvariant_derive"
 version = "5.8.0"
-source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#9bb6a958fdbfcc6c46f2766cae8e60ee20ec81ee"
+source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#c83f3d251b3418ae7cec0df165dc36bf7ac8090e"
 dependencies = [
  "proc-macro-crate 3.4.0",
  "proc-macro2",
@@ -3252,7 +3252,7 @@ dependencies = [
 [[package]]
 name = "zvariant_utils"
 version = "3.2.1"
-source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#9bb6a958fdbfcc6c46f2766cae8e60ee20ec81ee"
+source = "git+https://github.com/Schmarni-Dev/zbus?branch=better_obj_destruct#c83f3d251b3418ae7cec0df165dc36bf7ac8090e"
 dependencies = [
  "proc-macro2",
  "quote",
