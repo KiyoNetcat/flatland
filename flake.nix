@@ -22,7 +22,10 @@
           name = "resources";
           src = ./.;
 
-          buildPhase = "cp -r $src/data/org.stardustxr.Flatland $out";
+          buildPhase = ''
+            mkdir -p $out/org.stardustxr.Flatland
+            cp -r $src/data/org.stardustxr.Flatland $out/org.stardustxr.Flatland
+          '';
         };
       };
     });
