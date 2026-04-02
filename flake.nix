@@ -17,13 +17,6 @@
         src = ./.;
 
         cargoTestCommand = "echo \"looks good to me\"";
-        
-        STARDUST_RES_PREFIXES = pkgs.stdenvNoCC.mkDerivation {
-          name = "resources";
-          src = ./.;
-  
-          buildPhase = "cp -r $src/res $out";
-        };
       };
     });
   };
